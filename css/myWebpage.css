@@ -1,11 +1,11 @@
 @font-face {
     font-family: comic-bold;
-    src: url(/fonts/comicbd.ttf) format('truetype');
+    src: url(../fonts/comicbd.ttf) format('truetype');
 }
 
 @font-face {
     font-family: comic;
-    src: url(/fonts/comic.ttf) format('truetype');
+    src: url(../fonts/comic.ttf) format('truetype');
 }
 
 * {
