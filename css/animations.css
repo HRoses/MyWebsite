@@ -1,0 +1,88 @@
+
+@keyframes circle {
+    0% {
+        transform: scale(0) rotate(0deg);
+        opacity: 1;
+        bottom: 0;
+        border-radius: 0;
+    }
+
+    100% {
+        transform: scale(5) rotate(800deg);
+        opacity: 0;
+        bottom: 90vh;
+        border-radius: 50%;
+    }
+}
+
+@keyframes square {
+    0% {
+        transform: scale(0) rotateY(0deg);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(4) rotateY(800deg);
+        opacity: 0;
+    }
+}
+
+@keyframes dropInAnim {
+    from {
+        transform: translateY(-1000px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+@keyframes moveFromTop {
+    0% {
+        opacity: 0;
+        filter: blur(2px);
+        transform: translateY(-100px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes animatedBackground {
+    100% {
+        background-position: 2000px 100px;
+    }
+}
+
+
+@keyframes movetileAnimation {
+    0% {
+        top: -10px;
+    }
+
+    25% {
+        top: 0px;
+
+    }
+
+    50% {
+        top: 10px;
+
+    }
+
+    75% {
+        top: 0px;
+
+    }
+
+    100% {
+        top: -10px;
+
+    }
+
+}

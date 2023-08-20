@@ -1,0 +1,353 @@
+@media (max-width: 768px) {
+    .welcome h1 {
+        font-size: 2.25rem;
+    }
+
+    .welcome ul li {
+        width: 0.625rem;
+        height: 0.625rem;
+    }
+
+    .leftcorner {
+        left: 5%;
+        bottom: 10%;
+    }
+
+    .leftcorner a {
+        padding: 0.875rem 1.875rem;
+    }
+
+    .left h1 {
+        font-size: 4.6875rem;
+        width: 100%;
+    }
+
+    .left p {
+        font-size: 1.5rem;
+    }
+
+    #topmenu li a {
+        display: none;
+    }
+
+    .toggle-light {
+        right: 8%;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .grid-container {
+        grid-template-areas:
+            'left '
+            'right '
+            'footer';
+    }
+
+    .about-col-1 h1 {
+        font-size: 2.25rem;
+
+    }
+
+    .about-col-1 ul li {
+        font-size: 1rem;
+        margin-top: 1.25rem;
+    }
+
+    .left-side {
+        width: 100%;
+        margin: 0;
+        padding: 0.625rem;
+    }
+
+    .right-side {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .right-side h2 {
+        font-size: 1.125rem;
+    }
+
+    .skill-list ul {
+        list-style: none;
+        font-size: 1rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(9.375rem, 1fr));
+    }
+
+    .skill-list ul li {
+        border: 2px solid var(--text-maincolor);
+        width: 6.25rem;
+        text-align: center;
+        padding: 5px;
+        border-radius: 2.5rem;
+        margin: 0.625rem auto 0px;
+    }
+
+    .footer {
+        margin: 2%;
+    }
+
+    #project {
+        margin-top: 10%;
+        position: relative;
+    }
+
+    #project h1 {
+        font-size: 2.25rem;
+    }
+
+    .project-list {
+        height: 80%;
+        border: 2px solid var(--text-maincolor);
+        border-radius: 0.625rem;
+        padding: 0.625rem;
+        gap: 0.625rem;
+        align-items: center;
+        margin-top: 2%;
+    }
+
+    .individual-project {
+        height: 100%;
+        width: 100%;
+    }
+
+    .project-scroll {
+        position: absolute;
+        bottom: 5%;
+    }
+
+    #contact {
+        grid-template-areas:
+            'contact-left '
+            'contact-footer ';
+        overflow-x: hidden;
+    }
+
+    .contact-left {
+        width: 100vw;
+
+    }
+
+    .contact-right {
+        display: none;
+    }
+
+    .contact-left h1 {
+        font-size: 2rem;
+    }
+
+    .contact-form {
+        width: 100%;
+
+    }
+
+    form input,
+    form textarea {
+        width: 100%;
+
+    }
+
+    .contact-footer {
+        margin-top: 10%;
+    }
+
+}
+
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .grid-container {
+        grid-template-areas:
+            'left '
+            'right '
+            'footer';
+    }
+
+    .about-col-1 h1 {
+        font-size: 2.25rem;
+
+    }
+
+    .about-col-1 ul li {
+        margin-top: 1.25rem;
+        font-size: 1.125rem;
+    }
+
+    .left-side {
+        width: 100%;
+        margin: 0;
+        padding: 1.25rem 3.125rem;
+    }
+
+    .right-side {
+        width: 60%;
+        height: 100%;
+        /* margin: 0px auto; */
+        margin-top: 0px;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .skill-list ul {
+        list-style: none;
+        font-size: 0.875rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(8.125rem, 1fr));
+    }
+
+    .skill-list ul li {
+        border: 2px solid var(--text-maincolor);
+        width: 6.25rem;
+        text-align: center;
+        padding: 0.625rem;
+        border-radius: 2.5rem;
+        margin: 0.625rem auto 0px;
+    }
+
+    .footer {
+        margin-top: 1%;
+    }
+
+    #project {
+        position: relative;
+    }
+
+    #project h1 {
+        font-size: 2.25rem;
+    }
+
+    .project-list {
+        height: 70%;
+        border: 2px solid var(--text-maincolor);
+        border-radius: 10px;
+        padding: 0.625rem;
+        gap: 0.625rem;
+        align-items: center;
+        margin-top: 2%;
+    }
+
+    .individual-project {
+        height: 100%;
+        width: 100%;
+    }
+
+    .project-scroll {
+        position: absolute;
+        bottom: 10%;
+    }
+
+    #contact {
+        grid-template-areas:
+            'contact-left contact-right'
+            'contact-footer contact-footer';
+    }
+
+    .contact-left {
+        margin-top: 15%;
+    }
+
+    .contact-right>.contact-animation {
+        width: 80%;
+        height: 40%;
+
+    }
+
+    .contact-right {
+        margin-top: -23%;
+    }
+
+
+    .contact-left h1 {
+        font-size: 2rem;
+    }
+
+    form input,
+    form textarea {
+        width: 100%;
+    }
+
+    .contact-footer {
+        margin-top: 16%;
+    }
+
+}
+
+
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+    .grid-container {
+        grid-template-areas:
+            'left '
+            'right '
+            'footer';
+    }
+
+    .about-col-1 h1 {
+        font-size: 36px;
+
+    }
+
+    .about-col-1 ul li {
+        font-size: 20px;
+    }
+
+    .left-side {
+        width: 100%;
+        margin: 0;
+        padding: 50px;
+    }
+
+    .right-side {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .skill-list ul {
+        list-style: none;
+        font-size: 16px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+
+    .skill-list ul li {
+        border: 2px solid var(--text-maincolor);
+        width: 100px;
+        text-align: center;
+        padding: 10px;
+        border-radius: 40px;
+        margin: 10px auto 0px;
+    }
+
+    .footer {
+        margin-top: 5%;
+    }
+
+    #project {
+        position: relative;
+    }
+
+    .project-scroll {
+        position: absolute;
+        bottom: 7%;
+    }
+
+    #project h1 {
+        margin-top: 3%;
+    }
+
+    .contact-right {
+        margin-top: -10%;
+    }
+
+    .contact-animation {
+        margin-right: 10%;
+        margin-top: 0;
+        height: 50%;
+    }
+
+    .contact-footer {
+        margin-top: 10%;
+    }
+
+}

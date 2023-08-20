@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Harsh Malhotra">
+    <meta name="description" content="My Personal Website">
+    <title>Harsh Malhotra</title>
+    <!-- main style sheets -->
+    <link rel="stylesheet" href="css/myWebpage.css">
+    <link rel="stylesheet" href="css/media-queries.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="shortcut icon" href="img/TransparentIcon.png" type="image/x-icon">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- main javascript -->
+    <script src="Js/myWebpage.js" defer></script>
+    <!-- typed js cdn -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+</head>
+
+<body>
+    <div class="welcome">
+        <h1> &nbsp;Welcome.</h1>
+        <div class="squares">
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <div class="circles">
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+
+        <div class="scroll" onclick="scrollHeader()">
+            <div>Begin</div>
+            <i class="fa-solid fa-angles-down" style="cursor: pointer;"></i>
+        </div>
+    </div>
+    </div>
+
+    <div id="home">
+        <div class="container">
+            <nav class="addAnimation">
+                <ul id="topmenu">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="toggle-light">
+                <div class="addAnimation">
+                    <i class="fas fa-sun" onclick="toggleLights()"></i>
+                </div>
+            </div>
+            <div class="left addAnimation">
+                <p>Hi, I am</p>
+                <h1>Harsh Malhotra</h1>
+                <p> <span class="auto"></span></p>
+                <p> <span class="auto2"></span></p>
+            </div>
+            <div class="leftcorner addAnimation">
+                <a href="./resume/Harsh_Resume.pdf" target="_blank">Resume</a>
+            </div>
+            <div class="rightcorner addAnimation">
+                <a href="https://github.com/HRoses" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/harshmal/" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <div class="scroll addAnimation" onclick="scrollAbout()">
+                <i class="fa-solid fa-angles-down" style="cursor: pointer;"></i>
+            </div>
+        </div>
+    </div>
+
+    <div id="about" class="grid-container">
+
+        <div class="left-side">
+            <div class="about-col-1">
+                <h1>About me:</h1>
+                <ul>
+                    <li>Hi There! I am Harsh and I am 2nd year computer science student at Lassonde School of
+                        Engineering at York U.</li>
+                    <li> I enjoy coding, but what I love most is problem solving. </li>
+                    <li>My philosoghy has always been to learn something deeply by taking it apart and putting it
+                        together.</li>
+                    <li>Outside of programming, I like playing music (I'm currently learning drums), chemistry,
+                        taking care for my hamster, and driving.</li>
+                </ul>
+            </div>
+
+        </div>
+        <div id="lang" class="right-side">
+            <div class="about-col-2">
+                <h2>Languages,tools, framework:</h2>
+                <div class="skill-list">
+                    <ul>
+                        <li>Java</li>
+                        <li>Python</li>
+                        <li>Javascript</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Node.js</li>
+                        <li>Express</li>
+                        <li>Puppeteer</li>
+                        <li>MongoDB</li>
+                        <li>MySQL</li>
+                        <li>PostGres</li>
+                        <li>Git</li>
+                        <li>Postman</li>
+                        <li>Mongoose</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="about-scroll" onclick="scrollProject()">
+                <i class="fa-solid fa-angles-down" style="cursor: pointer;"></i>
+            </div>
+        </div>
+    </div>
+
+    <div id="project">
+        <h1>Projects</h1>
+        <div class="project-list">
+            <div class="individual-project">
+                <div class="front-layer">
+                    <img src="img/project1-topnews.png" alt="Top News Project">
+                    <p class="project-title">Top News</p>
+                    <p>
+                        <span>Node</span>
+                        <span>Express</span>
+                        <span>Puppeteer</span>
+                    </p>
+                </div>
+                <div class="back-layer">
+                    <p>A fullstack project website to get latest updates from CP24 World News, BBC TechNews, and
+                        FreeCodeCamp Youtube Channel and displays on single page <br><br>[Work in Progress]</p> <br>
+                    <a href="https://github.com/HRoses" target="_blank">Github</a>
+                </div>
+            </div>
+            <div class="individual-project">
+                <div class="front-layer">
+                    <img src="img/project2-website.PNG" alt="Personal Website">
+                    <p class="project-title">Personal Website</p>
+                    <p>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </p>
+                </div>
+                <div class="back-layer">
+                    <p>Personal website leveraging HTML,CSS, and Javascript. Using interactive observer API for timed
+                        Animations. </p> <br>
+                    <a href="www.github.com">Github</a>
+                </div>
+            </div>
+            <div class="individual-project">
+                <div class="front-layer">
+                    <img src="img/project3-movieAPI.PNG" alt="MovieAPI MVC Architecture">
+                    <p class="project-title">MoviesAPI (MVC)</p>
+                    <p>
+                        <span>Express</span>
+                        <span>MongoDB</span>
+                        <span>Postman</span>
+                    </p>
+                </div>
+                <div class="back-layer">
+
+                    <p>This is a MoviesAPI built using MVC Architecture, with all CRUD operations with advanced features
+                        like Filteration, Sorting, Pagination...etc </p> <br>
+                    <a href="https://github.com/HRoses/MVC-Architecture" target="_blank">Github</a>
+                </div>
+            </div>
+            <div class="individual-project">
+                <div class="front-layer">
+                    <img src="img/project4-automatic-plant-water.jpg" alt="Automatic Plant watering system">
+                    <p class="project-title">Automatic Plant Watering System</p>
+                    <p>
+                        <span>Java</span>
+                        <span>Firmata4J</span>
+                        <span>Arduino</span>
+                    </p>
+                </div>
+                <div class="back-layer">
+
+                    <p>This is an automatic plant Watering system that works when soil is sensed to be dry. Written in
+                        Java and built using Arduino</p><br>
+                    <a href="https://github.com/HRoses/Automatic-Plant-Watering-System" target="_blank">Github</a>
+
+                </div>
+            </div>
+            <div class="individual-project">
+                <div class="front-layer">
+                    <img src="img/project5-microcontroller.jpg" alt="Microcontroller Project">
+                    <p class="project-title">Pic32 Microcontroller</p>
+                    <p>
+                        <span>C</span>
+                        <span>Pic32</span>
+                        <span>XC8 Compiler</span>
+                    </p>
+                </div>
+                <div class="back-layer">
+
+                    <p>This is a hobby project of mine, built on a breadboard with Pic32 Microcontroller using MPLAB
+                        SNAP Programmer/Debugger. This current project will blink Led lights (Green and Blue) using the
+                        3 buttons I have installed on the breadboard.</p>
+                    <br>
+                    <a href="https://github.com/HRoses/Pic32-Microcontroller-Hobby-Projects" target="_blank">Github</a>
+
+                </div>
+            </div>
+        </div>
+        <div class="project-scroll" onclick="scrollContact()">
+            <i class="fa-solid fa-angles-down" style="cursor: pointer;"></i>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="contact-left" id="contactLeft">
+            <h1>Connect with me!</h1>
+            <div class="contact-form">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Name" required>
+                    <input type="email" name="Email" placeholder="Email" required>
+                    <textarea name="Message" rows="6" placeholder="Message"></textarea>
+                    <button class="btn" type="submit">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+        <div class="contact-right">
+            <div class="contact-animation" id="contactAnim">
+                <!-- <h2><i>Luce ut universum tibi est</i></h2> -->
+                <h2><i>Age Quod Agis</i></h2>
+                <div class="blocks">
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="spheres">
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="contact-footer">
+            <div class="social-icons">
+                <a href="https://github.com/HRoses" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/harshmal/" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="./resume/Harsh_Resume.pdf" target="_blank">Resume</a>
+        </div>
+        <div class="copy-rights">
+            <p>© Harsh Malhotra</p>
+        </div>
+    </div>
+
+
+
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyNYxM2Qjs9UkCTiaRUqn9yjO5huKdcpRZj5KTEfeoM7Rnfs7-0fWOJyRnsCubNt8y0/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById('msg');
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = `Message sent succesfully`
+                    setTimeout(function () {
+                        msg.innerHTML = ``;
+                    }, 4000)
+                    form.reset();
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+
+        const typed = new Typed(".auto", {
+            strings: ['Software Engineer.', 'FullStack Developer', 'Musician.', 'Collaborator.', 'Determined.'],
+            typeSpeed: 60,
+            backSpeed: 40,
+            loop: true
+        });
+
+        const typed2 = new Typed('.auto2', {
+            strings: ['Computer Science Student @ Lassonde'],
+            typeSpeed: 80,
+            cursorChar: '.',
+        })
+    </script>
+
+</body>
+
+</html>
