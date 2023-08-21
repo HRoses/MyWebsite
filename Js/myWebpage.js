@@ -59,7 +59,7 @@ function toggleLights() {
         root.style.setProperty('--body-background', 'radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%)');
         // root.style.setProperty('--tertiary-color', '#2d2d30');
         root.style.setProperty('--tertiary-color', '#1f2f41');
-        nameBackgroundPicture.style.background = 'url(".../img/whitepattern.png")'; 
+        nameBackgroundPicture.style.background = 'url("../img/whitepattern.png")'; 
         nameBackgroundPicture.style.webkitBackgroundClip = "text";
         nameBackgroundPicture.style.backgroundPosition = '12.5rem 125rem';
         lightOn = false;
@@ -69,7 +69,7 @@ function toggleLights() {
         root.style.setProperty('--text-maincolor', 'black');
         root.style.setProperty('--body-background', 'white');
         root.style.setProperty('--tertiary-color', 'white');
-        nameBackgroundPicture.style.background = 'url(".../img/blackpattern.png")';
+        nameBackgroundPicture.style.background = 'url("../img/blackpattern.png")';
         nameBackgroundPicture.style.webkitBackgroundClip = "text";
         nameBackgroundPicture.style.backgroundPosition = '12.5rem 125rem';
     }
