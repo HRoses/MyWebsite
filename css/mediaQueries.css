@@ -479,7 +479,11 @@
     }
 
     /* welcome */
-    .welcome h1 {
+    
+    .welcome {
+        display: none;
+    }
+    /* .welcome h1 {
         font-size: 2.25rem;
     }
 
@@ -491,7 +495,7 @@
     .welcome .scroll {
         margin-left: auto;
         margin-right: auto;
-    }
+    } */
 
     /* Home Page */
     #topmenu {
@@ -616,7 +620,7 @@
     }
 
     /* welcome */
-    .welcome h1 {
+    /* .welcome h1 {
         font-size: 2.5rem;
     }
 
@@ -628,7 +632,7 @@
     .welcome .scroll {
         margin-left: auto;
         margin-right: auto;
-    }
+    } */
 
     /* Home Page */
     #topmenu {
@@ -763,9 +767,9 @@
     }
 
     /* welcome page */
-    .welcome h1 {
+    /* .welcome h1 {
         font-size: 2rem;
-    }
+    } */
 
     /* home page */
     .left h1 {
