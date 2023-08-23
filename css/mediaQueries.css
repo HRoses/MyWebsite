@@ -833,11 +833,74 @@
 
     /* contact page */
     .contact-left h1 {
-
         text-align: center;
     }
 
     .contact-footer {
         margin-top: 2%;
+    }
+
+    .copy-rights {
+        display: none;
+    }
+}
+
+/* xxs */
+@media (max-width: 320px) and (max-height: 640px) {
+    .D-container {
+        width: 100%;
+        border: 5px solid lightsalmon;
+    }
+
+    /* welcome page */
+    /* .welcome h1 {
+        font-size: 2rem;
+    } */
+
+    /* home page */
+    .left h1 {
+        font-size: 4rem;
+        animation: animatedBackground 50s linear infinite;
+    }
+
+    .leftcorner a {
+        margin: 0;
+    }
+
+    /* about page */
+    .about-col-1 ul li {
+        font-size: 0.875rem;
+    }
+
+    .left-side {
+        margin-top: 4vh;
+    }
+
+
+    .about-col-2 ul li {
+        font-size: 1rem;
+    }
+
+    .footer {
+        bottom: 2%;
+    }
+
+    /* project page */
+    #project h1 {
+        font-size: 2rem;
+    }
+
+    /* contact page */
+    .contact-left h1 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .contact-footer {
+       display: none;
+    }
+
+    .copy-rights {
+        display: none;
     }
 }
