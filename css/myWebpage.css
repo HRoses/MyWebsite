@@ -179,7 +179,7 @@ body {
 
 .left h1 {
     font-size: 7.5rem;
-    font-family: cursive;
+    font-family: comic-bold;
     color: transparent;
     -webkit-text-stroke: 0.0625rem var(--text-maincolor);
     background: url(../img/whitepattern.png);
