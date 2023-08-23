@@ -478,11 +478,18 @@
         /* border: 5px solid teal; */
     }
 
+    /* scrollers */
+
+    .scroll, .about-scroll, .project-scroll {
+        display: none;
+    }
+
     /* welcome */
-    
+
     .welcome {
         display: none;
     }
+
     /* .welcome h1 {
         font-size: 2.25rem;
     }
@@ -504,8 +511,19 @@
 
     .left h1 {
         font-size: 4.5rem;
-        animation: animatedBackground 45s linear infinite;
+        /* animation: animatedBackground 45s linear infinite; */
     }
+
+    .left h1 {
+        color: white;
+        -webkit-text-stroke: none;
+        background: none;
+        -webkit-background-clip: none;
+        background-clip: none;
+        background-position: none;
+        animation: none;
+    }
+
 
     .left p {
         font-size: 1.375rem;
