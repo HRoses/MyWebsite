@@ -849,7 +849,7 @@
 @media (max-width: 320px) and (max-height: 640px) {
     .D-container {
         width: 100%;
-        border: 5px solid lightsalmon;
+        /* border: 5px solid lightsalmon; */
     }
 
     /* welcome page */
