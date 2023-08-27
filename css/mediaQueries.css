@@ -131,6 +131,106 @@
     }
 }
 
+@media (max-width: 1280px) and (max-height: 700px) {
+    .D-container {
+        max-width: 1200px;
+        border: 5px solid yellowgreen;
+    }
+
+    /* home page */
+    .left {
+        margin-left: -3%;
+    }
+
+    /* About Page */
+    .grid-container {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .left-side {
+        margin: 0;
+        margin-top: 3vh;
+        width: 70%;
+        padding: 1.25rem;
+        height: max-content;
+    }
+
+    .about-col-1 h1 {
+        font-size: 3rem;
+        margin: 0;
+        font-weight: bolder;
+    }
+
+    .about-col-1 ul {
+        margin-top: 2.5rem;
+        list-style: none;
+    }
+
+    .about-col-1 ul li {
+        font-size: 1.3rem;
+        margin-top: 1.25rem;
+        text-align: justify;
+    }
+
+    .right-side {
+        margin-top: 13vh;
+        margin-left: -60%;
+        height: max-content;
+    }
+
+    .skill-list ul li {
+        padding: 10px;
+    }
+
+    .footer {
+        position: absolute;
+        bottom: 10%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    /* project page */
+
+    #project h1 {
+        margin-top: 1.25rem;
+    }
+
+    .project-list {
+        border: 2px solid var(--text-maincolor);
+        border-radius: 1.25rem;
+        padding: 0.625rem;
+        height: 65%;
+    }
+
+
+    /* contact page */
+
+    .contact-left {
+        margin: 0;
+        margin-top: -5%;
+
+    }
+
+    .contact-right {
+        margin: 0;
+        margin-top: -5%;
+    }
+
+    .contact-animation {
+        height: 55%;
+    }
+
+    .contact-footer {
+        margin-top: -4%;
+    }
+
+    .copy-rights {
+        display: none;
+    }
+}
+
 /* lg */
 @media (max-width: 1024px) {
     .D-container {
@@ -480,7 +580,9 @@
 
     /* scrollers */
 
-    .scroll, .about-scroll, .project-scroll {
+    .scroll,
+    .about-scroll,
+    .project-scroll {
         display: none;
     }
 
@@ -530,17 +632,17 @@
     }
 
     .leftcorner {
-        left: -1%;        
+        left: -1%;
     }
-    
-    .rightcorner{
+
+    .rightcorner {
         right: 4%;
     }
 
     .leftcorner a {
         padding: 0.625rem 1.875rem;
         margin: 0.2rem;
-       
+
     }
 
     .leftcorner a:hover {
@@ -897,7 +999,7 @@
     }
 
     .contact-footer {
-       display: none;
+        display: none;
     }
 
     .copy-rights {

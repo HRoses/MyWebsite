@@ -21,6 +21,8 @@
     <script src="Js/myWebpage.js" defer></script>
     <!-- typed js cdn -->
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
+
 </head>
 
 <body>
@@ -286,6 +288,11 @@
 
 
     <script>
+        if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
+            window.__forceSmoothScrollPolyfill__ = true;
+        }
+
+
         const scriptURL = 'https://script.google.com/macros/s/AKfycbyNYxM2Qjs9UkCTiaRUqn9yjO5huKdcpRZj5KTEfeoM7Rnfs7-0fWOJyRnsCubNt8y0/exec'
         const form = document.forms['submit-to-google-sheet']
         const msg = document.getElementById('msg');
@@ -316,6 +323,8 @@
             typeSpeed: 80,
             cursorChar: '.',
         })
+
+
     </script>
 
 </body>

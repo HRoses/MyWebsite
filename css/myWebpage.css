@@ -38,6 +38,23 @@ body {
     color: var(--text-maincolor);
 }
 
+.project-list::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+.project-list::-webkit-scrollbar-track {
+    background-color: transparent;
+   
+    margin-block: 0.8em;
+}
+
+.project-list::-webkit-scrollbar-thumb {
+    background-color: #8ECAE6;
+    border-radius: 10px;
+    
+}
+
+
 /* ---Welcome Section---- */
 .welcome {
     height: 100vh;
@@ -486,7 +503,7 @@ nav.anim,
     padding: 0 0.625rem;
     color: #ffffff;
     background-color: var(--body-backgroundBlack);
-    transition: height 0.4s;
+    transition: height 0.3s ease-in-out, border 0.1s ease-in-out;
     cursor: pointer;
     border-radius: 0.625rem;
 }
