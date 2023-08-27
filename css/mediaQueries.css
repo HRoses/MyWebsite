@@ -11,7 +11,7 @@
 @media (min-width: 1281px) {
     .D-container {
         max-width: 1400px;
-        border: 5px solid lightslategrey;
+        /* border: 5px solid lightslategrey; */
     }
 
     /* About Page */
@@ -45,7 +45,7 @@
 @media (max-width: 1280px) {
     .D-container {
         max-width: 1200px;
-        border: 5px solid wheat;
+        /* border: 5px solid wheat; */
     }
 
     /* home page */
@@ -134,7 +134,7 @@
 @media (max-width: 1280px) and (max-height: 700px) {
     .D-container {
         max-width: 1200px;
-        border: 5px solid yellowgreen;
+        /* border: 5px solid yellowgreen; */
     }
 
     /* home page */
@@ -235,7 +235,7 @@
 @media (max-width: 1024px) {
     .D-container {
         max-width: 800px;
-        border: 5px solid pink;
+        /* border: 5px solid pink; */
     }
 
     /* About Page */
@@ -357,7 +357,7 @@
 @media (max-width: 1024px) and (max-height: 1179px) {
     .D-container {
         max-width: 800px;
-        border: 5px solid red;
+        /* border: 5px solid red; */
     }
 
     /* Home Page */
@@ -473,7 +473,7 @@
 @media (max-width: 768px) and (min-height: 1024px) {
     .D-container {
         max-width: 750px;
-        border: 5px solid lime;
+        /* border: 5px solid lime; */
     }
 
     /* About Page */
@@ -575,7 +575,7 @@
 @media (max-width: 640px) {
     .D-container {
         max-width: 475px;
-        border: 5px solid teal;
+        /* border: 5px solid teal; */
     }
 
     /* scrollers */
@@ -745,7 +745,7 @@
 @media (max-width: 475px) {
     .D-container {
         width: 100%;
-        border: 5px solid gold;
+        /* border: 5px solid gold; */
     }
 
     /* welcome */
@@ -892,7 +892,7 @@
 @media (max-width: 376px) {
     .D-container {
         width: 100%;
-        border: 5px solid lightcoral;
+        /* border: 5px solid lightcoral; */
     }
 
     /* welcome page */
@@ -951,7 +951,7 @@
 @media (max-width: 320px) and (max-height: 640px) {
     .D-container {
         width: 100%;
-        border: 5px solid lightsalmon;
+        /* border: 5px solid lightsalmon; */
     }
 
     /* welcome page */
